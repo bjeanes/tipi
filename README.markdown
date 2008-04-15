@@ -10,8 +10,10 @@ I have spent tonight implementing the very raw beginnings of this application. A
 
 This is *all* it does so far. Soon both on-peak and off-peak will be shown in the drop down as percentages and GB. Note: Quit and Check Now *do* work.
 
+[Screenshot](http://files.bjeanes.com/tipi.png "Screenshot")
+
 This has not been extensively tested and will definitely only work on the Super 2 plan (Super 1 as well but with wrong on/off peak times). This will have to be fixed up by others who can test it on their plan, or give me a "View Source" output of their usage page.
 
-## Plans
+## The Plan
 
 I will be making this into a status item that can be running constantly and will report (and log) current data usage, which period you are in, how long till your quota resets, and an estimate of how much data you can use per day without getting your speed capped. It will also provide a drop-down list of shortcuts to common places on the TPG homepage (Billing, Usage, Email, etc)
