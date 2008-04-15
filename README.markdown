@@ -10,7 +10,7 @@ I have spent tonight implementing the very raw beginnings of this application. A
 
 This is *all* it does so far. Soon both on-peak and off-peak will be shown in the drop down as percentages and GB. Note: Quit and Check Now *do* work.
 
-[Screenshot](http://files.bjeanes.com/tipi.png "Screenshot")
+![Screenshot](http://files.bjeanes.com/tipi.png "Screenshot")
 
 This has not been extensively tested and will definitely only work on the Super 2 plan (Super 1 as well but with wrong on/off peak times). This will have to be fixed up by others who can test it on their plan, or give me a "View Source" output of their usage page.
 
