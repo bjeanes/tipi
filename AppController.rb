@@ -53,7 +53,15 @@ class AppController < OSX::NSObject
       @status_item.setTitle("Invalid Credentials")
     else
       NSLog(tipi.inspect)
-      @status_item.setTitle(tipi[tipi[:current]].to_s + "MB")
+      
+      on = (tipi[:on].to_f / 1000).round.to_s
+      off = (tipi[:off].to_f / 1000).round.to_s
+      
+      @status_item.setTitle((tipi[:current] == :on ? on : off) + " GB")
+      
+      # tpg uses metric calculations (1000 instead of 1024)
+      @onpeak.title  = "On-peak: #{on} GB (#{tipi[:pon]})"
+      @offpeak.title = "Off-peak: #{off} GB (#{tipi[:poff]})"
     end
   end
   
